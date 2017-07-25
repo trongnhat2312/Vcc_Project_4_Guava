@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
+
 public class RespondCache {
-    LoadingCache<Integer, String> cache;
+    private LoadingCache<Integer, String> cache;
     public void init() {
         //create a cache for prime numbers not larger than n
         cache = CacheBuilder.newBuilder()

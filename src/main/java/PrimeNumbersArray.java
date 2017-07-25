@@ -1,5 +1,8 @@
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
+
+/**
+ * Tinh toan va tra ve day so nguyen to khong vuot qua n
+ */
 
 public class PrimeNumbersArray {
 
@@ -10,7 +13,6 @@ public class PrimeNumbersArray {
             if (isPrime(i))
                 primeNumbersArray.add(i);
         }
-        System.out.println("Viet ham");
         return primeNumbersArray;
     }
 
